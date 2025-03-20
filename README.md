@@ -1,6 +1,7 @@
 # MetadataRemoval
 Removes Metadata from files.  AKA metadata scrubbing.
 
+
 ### Why?  
 
 The problem:  
@@ -19,6 +20,12 @@ Hackers will then try to exploit these software versions but looking for any unp
 
 
 ---
+
+## Instructions:  
+
+1. Install exiftool `sudo apt install libimage-exiftool-perl`
+2. Run `exiftool "file-to-be-scrubbed.pdf"`
+
 
 <br />
 <br />

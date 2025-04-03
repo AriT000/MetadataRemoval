@@ -1,4 +1,4 @@
-# MetadataRemoval
+# MetadataRemover
 Removes Metadata from files.  AKA metadata scrubbing.
 
 
@@ -21,7 +21,7 @@ Hackers will then try to exploit these software versions but looking for any unp
 
 ---
 
-## Instructions:  
+## Instructions you can follow:  
 
 1. Install exiftool `sudo apt install libimage-exiftool-perl`
 2. Run `exiftool "file-to-be-scrubbed.pdf"`
@@ -31,6 +31,31 @@ Hackers will then try to exploit these software versions but looking for any unp
 <br />
 <br />
 <br />
+---
+
+## What I made:
+
+Here's the site: 
+
+![alt text](https://github.com/AriT000/MetadataRemoval/blob/main/image_1.png)
+
+I upload the file "OrganizationsCoreAssignment.pdf" (SANS example): 
+
+![alt text](https://github.com/AriT000/MetadataRemoval/blob/main/image_2.png)
+
+I download the cleaned file and compare the metadata: 
+
+![alt text](https://github.com/AriT000/MetadataRemoval/blob/main/image_3.png)
+
+
+As you can see, both the author and software, potential OSINT information, were removed.
+
+Dependencies:
+exiftool
+pdftk
+qpdf
+pdfinfo
+
 
 Further OSINT reconnaissance mitigation topics I'd like to cover later on:
 - Webscraping

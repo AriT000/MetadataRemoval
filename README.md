@@ -26,12 +26,12 @@ Hackers will then try to exploit these software versions but looking for any unp
 1. Install exiftool `sudo apt install libimage-exiftool-perl`
 2. Run `exiftool "file-to-be-scrubbed.pdf"`
 
+However, this doesn't remove the embedded metadata. The metadata can still be recoverd.
+Pdftk tries to reduce the chances of this metadata being recovered.
+
 
 <br />
-<br />
-<br />
-<br />
----
+
 
 ## What I made:
 
@@ -54,8 +54,9 @@ Dependencies:
 exiftool
 pdftk
 qpdf
-pdfinfo
+pdfinfo 
 
+---
 
 Further OSINT reconnaissance mitigation topics I'd like to cover later on:
 - Webscraping

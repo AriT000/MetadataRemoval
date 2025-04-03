@@ -37,7 +37,7 @@ Hackers will then try to exploit these software versions but looking for any unp
 
 Here's the site: 
 
-![alt text](https://github.com/AriT000/MetadataRemoval/blob/main/image_1.png)
+![alt text](https://github.com/AriT000/MetadataRemoval/blob/main/image_5.png)
 
 I upload the file "OrganizationsCoreAssignment.pdf" (SANS example): 
 

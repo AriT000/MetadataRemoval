@@ -63,4 +63,4 @@ Further OSINT reconnaissance mitigation topics I'd like to cover later on:
 - Email address obfuscation
 - Social media privacy
 - Network exposure (ports)
-- Job posting sanitization
+- Job posting sanitization (although job posts might need an overhaul anyways to filter out bots somehow)
